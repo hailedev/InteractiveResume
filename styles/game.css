@@ -32,7 +32,6 @@
 .message-overlay-portrait {
     height: 70px;
     width: 70px;
-    background-color: black;
     display: inline-block;
     margin: 5px;
 }
