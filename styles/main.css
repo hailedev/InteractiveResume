@@ -9,6 +9,19 @@ body {
     height:800px;
 }
 
+.connect{
+    position:fixed;
+    top:200px;
+    left:150px;
+}
+.connect ul{
+    list-style-type: none;
+    padding:0;
+}
+.connect ul li{
+    margin: 8px 0;
+    cursor: pointer;
+}
 .footer {
     background-color: #454545;
     height: 220px;
