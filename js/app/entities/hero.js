@@ -138,13 +138,13 @@ define(
 
             if(this._interactable){
                 if(this._interactable.name === "chest" && this._interactable.state === "closed"){
-                    if(this._message.css("display") === "none"){
+                    if(this._message.css("opacity") === 0){
                         this._message.text("Press Space to Interact");
-                        this._message.css("display", "block");
+                        this._message.css("opacity", 1);
                     }
                 }
             } else if(!this._gate){
-                this._message.css("display", "none");
+                this._message.css("opacity", 0);
             }
 
             // handle movement
@@ -192,7 +192,7 @@ define(
                                     id += "-offHand";
                                 }
                                 setPlayerSprite.call(that, [id]);
-                                that._message.css("display", "none");
+                                that._message.css("opacity", 0);
                             }
                         });
                     }
@@ -425,10 +425,10 @@ define(
             this._gate = gate;
             if(gate){
                 this._message.text("Press Space to Enter");
-                this._message.css("display", "block");
+                this._message.css("opacity", 1);
                 return;
             }
-            this._message.css("display", "none");
+            this._message.css("opacity", 0);
         };
         //endregion
 

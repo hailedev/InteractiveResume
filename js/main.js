@@ -16,17 +16,5 @@ require(['jquery', 'domReady!', 'app/game', 'app/helpers/mouse', 'app/helpers/ke
 
         var currentGame = new game(mouseHandler, keyboardHandler);
         currentGame.start();
-
-        WebFont.load({
-            custom: {
-                families: ['Webly Sleek UI']
-            },
-            active: function(){
-                $("body").css("visibility","visible");
-            },
-            inactive:function(){
-                $("body").css("visibility","visible");
-            }
-        });
     }
 );

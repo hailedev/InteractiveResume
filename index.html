@@ -4,40 +4,16 @@
     <meta name="robots" content="noindex,nofollow">
     <script src="js/lib/require.js"></script>
     <script src="js/module-bootstrap.js"></script>
-    <script src="js/lib/webfontloader.js"></script>
     <link rel="shortcut icon" href="assets/icons/favicon.gif">
-    <link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300|Open+Sans:400,500,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:300,400,500|Open+Sans:400,500,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="styles/main.css">
     <link rel="stylesheet" type="text/css" href="styles/game.css">
     <link rel="stylesheet" type="text/css" href="styles/simple-modal.css">
     <title>Application</title>
 </head>
-<body style="visibility:hidden">
-    <div id="header-container">
-        <div id="header">
-            <div id="logo-container">
-                <a href="."><img src="assets/page/favicon.gif" alt="Link to my home XD"/></a>
-                <div id="title-container">
-                    <div>HAI LE</div>
-                    <ul>
-                        <!--<li>APPLICATION LETTER</li>-->
-                        <li><a href="documents/Resume.pdf">RESUME</a></li>
-                        <li><a href="http://haile.info">PERSONAL BLOG</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div id="social-links">
-                <ul>
-                    <li>FIND ME ON: </li>
-                    <li><a href="https://twitter.com/" target="_blank"><img class="social-logo" src="assets/page/twitter.gif"></a></li>
-                    <li><a href="https://www.facebook.com/hai.t.le" target="_blank"><img class="social-logo" src="assets/page/facebook.gif"></a></li>
-                    <li><a href="https://plus.google.com/105745481471027097751/" target="_blank"><img class="social-logo" src="assets/page/gplus.gif"></a></li>
-                    <li><a href="http://www.linkedin.com/pub/hai-le/46/50/259" target="_blank"><img class="social-logo" src="assets/page/linkedin.gif"></a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
+<body>
     <div id="game-container">
+        <div id="enter-message">Press Space to Enter</div>
         <div id="main-screen" class="game-screen">
             <canvas id="game-canvas" width="900" height="650" style="z-index: 1"></canvas>
             <canvas id="game-hud" width="900" height="650" style="z-index: 2"></canvas>
@@ -99,10 +75,14 @@
                 <div id="progress-message"></div>
             </div>
         </div>
-        <div id="enter-message">Press Space to Enter</div>
+    </div>
+    <div class="footer">
+        <a href="https://github.com/hailedev/InteractiveResume" target="_blank">Made with love by Hai Le</a>
+        <div style="margin-top:10px"><img style="width:150px" src="assets/page/monster.png"/></div>
+        <div style="opacity:0.8;color:white">Beware the copyright monster!</div>
     </div>
     <img src="assets/widgets/x.png" style="display:none"/>
-    <!--[if lt IE 9]>
+    <!--[if lt IE 11]>
     <div>
         <div style="width:50%;margin: 0 auto;text-align:center;">
             <img src="assets/flip.png">
@@ -116,7 +96,7 @@
         $("body").css("visibility", "visible");
     </script>
     <![endif]-->
-    <!--[if gt IE 8]>
+    <!--[if gt IE 10]>
     <!--><script src="js/main.js"></script><!-->
     <![endif]-->
 </body>
