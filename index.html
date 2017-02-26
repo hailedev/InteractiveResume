@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta name="robots" content="noindex,nofollow">
+    <script src="js/lib/require.js"></script>
+    <script src="js/module-bootstrap.js"></script>
+    <script src="js/lib/webfontloader.js"></script>
+    <link rel="shortcut icon" href="assets/icons/favicon.gif">
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300|Open+Sans:400,500,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link rel="stylesheet" type="text/css" href="styles/game.css">
+    <link rel="stylesheet" type="text/css" href="styles/simple-modal.css">
+    <title>Application</title>
+</head>
+<body style="visibility:hidden">
+    <div id="header-container">
+        <div id="header">
+            <div id="logo-container">
+                <a href="."><img src="assets/page/favicon.gif" alt="Link to my home XD"/></a>
+                <div id="title-container">
+                    <div>HAI LE</div>
+                    <ul>
+                        <!--<li>APPLICATION LETTER</li>-->
+                        <li><a href="documents/Resume.pdf">RESUME</a></li>
+                        <li><a href="http://haile.info">PERSONAL BLOG</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="social-links">
+                <ul>
+                    <li>FIND ME ON: </li>
+                    <li><a href="https://twitter.com/" target="_blank"><img class="social-logo" src="assets/page/twitter.gif"></a></li>
+                    <li><a href="https://www.facebook.com/hai.t.le" target="_blank"><img class="social-logo" src="assets/page/facebook.gif"></a></li>
+                    <li><a href="https://plus.google.com/105745481471027097751/" target="_blank"><img class="social-logo" src="assets/page/gplus.gif"></a></li>
+                    <li><a href="http://www.linkedin.com/pub/hai-le/46/50/259" target="_blank"><img class="social-logo" src="assets/page/linkedin.gif"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="game-container">
+        <div id="main-screen" class="game-screen">
+            <canvas id="game-canvas" width="900" height="650" style="z-index: 1"></canvas>
+            <canvas id="game-hud" width="900" height="650" style="z-index: 2"></canvas>
+            <canvas id="overlay-canvas" width="900" height="650" style="z-index: 3"></canvas>
+            <div id="message-overlay" style="z-index: 4">
+                <div class="message-overlay-portrait">
+                    <div class="message-overlay-portrait" id="message-overlay-portrait-overlay" style="z-index:11">
+                    </div>
+                    <img src="assets/profiles/profile1.png" style="z-index:10"/>
+                </div>
+                <div id="message-overlay-text-container">
+                    <div>
+                        <div id="message-overlay-text"></div>
+                        <div id="spinner-container">
+                            <div class="spinner-arrow" id="arrow-up">
+                                <img src="assets/page/arrow-up.png"/>
+                            </div>
+                            <div class="spinner-arrow" id="arrow-down">
+                                <img src="assets/page/arrow-down.png"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="message-overlay-health">
+                        <div id="message-overlay-current-health"></div>
+                    </div>
+                </div>
+                <div id="message-overlay-gear">
+                    <div class="slot" id="head">
+                        <img src="assets/icons/brutal-helm.png"/>
+                    </div>
+                    <div class="slot" id="mainHand">
+                        <img src="assets/icons/dripping-sword.png"/>
+                    </div>
+                    <div class="slot" id="offHand">
+                        <img src="assets/icons/checked-shield.png"/>
+                    </div>
+                </div>
+            </div>
+            <div id="message-speech" style="z-index: 5">
+                <div id="speech-container"></div>
+                <div id="controls-container">
+                    <img id="maximize" src="assets/page/maximize-icon.png" />
+                    <div id="navigation-container">
+                        <img id="bubble-previous" class="speech-arrow" src="assets/page/arrow-left.png" />
+                        <img id="bubble-next" class="speech-arrow" src="assets/page/arrow-right.png" />
+                    </div>
+                </div>
+            </div>
+            <div id="message-dialog" style="z-index: 6"></div>
+            <div id="response-dialog" style="z-index: 6"></div>
+        </div>
+        <div id="start-screen" class="game-screen">
+            <img src="assets/splash.png"/>
+            <img id="begin-label" src="assets/begin.png"/>
+            <div id="loading-screen">
+                <div id="progress-background"></div>
+                <div id="progress-meter"></div>
+                <img id="progress-foreground" src="assets/loading.png"/>
+                <div id="progress-message"></div>
+            </div>
+        </div>
+        <div id="enter-message">Press Space to Enter</div>
+    </div>
+    <img src="assets/widgets/x.png" style="display:none"/>
+    <!--[if lt IE 9]>
+    <div>
+        <div style="width:50%;margin: 0 auto;text-align:center;">
+            <img src="assets/flip.png">
+            <div style="font-size:25px;margin:10px 0 0 0;">
+                Incomptible Browser, Internet Explorer 9 or greater is required to view this webpage
+            </div>
+        </div>
+    </div>
+    <script src="js/lib/jquery-1.11.2.min.js"></script>
+    <script language="javascript">
+        $("body").css("visibility", "visible");
+    </script>
+    <![endif]-->
+    <!--[if gt IE 8]>
+    <!--><script src="js/main.js"></script><!-->
+    <![endif]-->
+</body>
+</html>
