@@ -138,7 +138,7 @@ define(
 
             if(this._interactable){
                 if(this._interactable.name === "chest" && this._interactable.state === "closed"){
-                    if(this._message.css("opacity") === 0){
+                    if(this._message.css("opacity") == 0){
                         this._message.text("Press Space to Interact");
                         this._message.css("opacity", 1);
                     }
