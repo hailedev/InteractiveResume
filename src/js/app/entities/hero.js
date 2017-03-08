@@ -331,8 +331,7 @@ define(
                 this._playerSprite.scaleX = -0.45;
                 this._currentDirection = PlayerDirection.Left;
             }
-
-            this.x -= module.config().MoveSpeed;
+            this.x -= 8;//module.config().MoveSpeed;
         };
 
         /**
