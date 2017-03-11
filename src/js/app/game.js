@@ -206,6 +206,7 @@ define(
             this._hudOverlay.addChild(new createjs.Bitmap(Loader.getResult("hud-overlay")));
             this._hudOverlay.update();
 
+            $("#instructions").css("opacity",1);
             loadLevel.call(this, Levels.Start);
             showScreens(["main-screen"]);
             this._mode = GameModes.Running;
