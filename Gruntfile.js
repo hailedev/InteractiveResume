@@ -42,6 +42,9 @@ module.exports = function (grunt) {
                     beautify:true,
                     scripts: {
                         bundle: [target === "debug" ? "../dist/js/main.js" : "../dist/js/main.min.js"]
+                    },
+                    data: {
+                        application: false
                     }
                 }
             }

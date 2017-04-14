@@ -4,7 +4,10 @@ define(
         'app/maps/start', 'app/maps/heavens', 'app/maps/caverns', 'app/maps/whimsy', 'app/maps/cathedral', 'app/entities/illidan', 'app/strings/questions', 'module', 'simple-modal'],
     function($, createjs, ndgmr, Hero, Loader, Start, Heavens, Caverns, Whimsy, Cathedral, Illidan, Questions, module){
 
-        var loadindMessages = ["Testing in production", "Cleaning Whitespace", "Pasting Code", "Copying Code", "Making Coffee"];
+        var loadindMessages = ["Testing in production", "Cleaning Whitespace", "Pasting Code", "Copying Code", "Making Coffee", "Googling Angular Directives"];
+        if(application == "true"){
+            loadindMessages.push("Building Handlock Deck");
+        }
         /**
          * The main game class
          *
