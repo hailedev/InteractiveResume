@@ -30,8 +30,7 @@ define(
             var _slot = "head";
             var _description = "<h3>Academic Qualifications Acquired</h3>" +
                 "<p>Completed Master of Computer Science at Monash University in 2009, and Bachelor of Digital Systems with Honours in 2004, also at Monash University.<br/><br/> " +
-                "Completed research projects in the field of content based image retrieval, in which user feedback is used to weight the relevance of features in order to align with user perceptions of similarity.<br/><br/>" +
-                "Conducted literature surveys in improving quality of service of mobile data transmission. </p>";
+                "Completed research projects in the field of content based image retrieval, in which user feedback is used to weight the relevance of features in order to align with user perceptions of similarity.<br/><br/></p>";
 
             /**
              * The slot the item is for
