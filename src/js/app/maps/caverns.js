@@ -42,13 +42,13 @@ define(
 
             // load the loot
             this.entities.push(new ShieldContainer(1135, 353, new Shield(1170, 323).init()).init());
-            this.entities.push(new HealthOrb(311, 343, "Experience with dependency injection using libraries such as Autofac").init());
-            this.entities.push(new HealthOrb(532, 453, "Unit testing experience using the Moq library").init());
-            this.entities.push(new HealthOrb(783, 142, "Windows Installer experience including writing customizations and transforms").init());
-            this.entities.push(new HealthOrb(979, 343, "Experience building Windows Installer packages using Installshield and Orca").init());
-            this.entities.push(new HealthOrb(1102, 518, "Developed Chrome browser extension in Javascript using Chrome Browser API").init());
-            this.entities.push(new HealthOrb(318, 151, "Developed Internet explorer extension using .Net and IE COM objects API").init());
-            this.entities.push(new HealthOrb(702, 318, "Developed plugins using MEF Framework").init());
+            this.entities.push(new HealthOrb(311, 343, "Experience with dependency injection libraries Autofac and StructureMap").init());
+            this.entities.push(new HealthOrb(532, 453, "Unit and integration testing experience using the Moq and NSpec").init());
+            this.entities.push(new HealthOrb(783, 142, "Experience with design frameworks and pre-processors including Bootstrap and Less").init());
+            this.entities.push(new HealthOrb(979, 343, "Experience with Caliburn.Micro framework to support MVVM methodologies").init());
+            this.entities.push(new HealthOrb(1102, 518, "Developed browser extensions in Javascript and C# for Chrome and IE").init());
+            this.entities.push(new HealthOrb(318, 151, "Experience with New Relic site monitoring tools").init());
+            this.entities.push(new HealthOrb(702, 318, "Experience building Windows Installer packages using Installshield and Orca").init());
             return Map.prototype.init.call(this, []);
         };
         //endregion

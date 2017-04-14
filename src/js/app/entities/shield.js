@@ -29,19 +29,24 @@ define(
 
             var _slot = "offHand";
             var _description = "<h3>Professional Experience Acquired</h3>" +
-                "<h4>QSR International - Software Developer (2009 - Current)</h4>" +
+                "<h4>World Vision Australia - Software Engineer (2016 - current)</h4>" +
+                "<p>Role as a .NET software engineer as part of a cross functional Agile team.  Core responsibilities involved developing backend " +
+                "web services to support customer facing website functionality, payment processing systems, integration with external service providers and " +
+                "integration with legacy systems.  Additional responsibilities include building front end components for Sitefinity CMS for use in the main World Vision Australia homepage.</p><p><br/></p>" +
+                "<h4>QSR International - Software Engineer (2009 - 2016)</h4>" +
                 "<p>Role as a .NET software developer as part of a Scrum (AGILE) team, developing software for qualitative data analysis.  " +
                 "Core responsibilities involved implementing business requirements using various framework technologies including WPF and SQL Server.  " +
-                "Tasked with implementing functionality to consume RESTful services, developing web API’s in JavaScript and building installation packages.  " +
-                "Additional responsibilities include production support by providing users with remote assistance.</p><p><br/></p>" +
+                "Tasked with implementing functionality to consume RESTful services, developing web APIs in JavaScript and building installation packages.</p><p><br/></p>" +
                 "<h4>QSR International - Test Analyst (2007 - 2009)</h4>" +
                 "<p>Served as a system tester for the development of qualitative data analysis software.  Scope of role involved design and implementation of test cases " +
                 "for the functionality, deployment, performance and interoperability of software.  Responsible for the design and development of automated testing scripts " +
                 "and the automated testing framework</p><p><br/></p>" +
                 "<h4>BMM Testlabs - System Consultant (2005 - 2006)</h4>" +
                 "<p>Served as a test engineer ensuring compliance and verification of electronic gaming machines according to national standards</p><p><br/></p>" +
-                "<h4>Volunteer Web Developer at World Vision Australia (2015 - 2016)</h4>" +
-                "<p>Developed and design a website to collate and showcase information on World Vision Australia's youth livelihoods programs</p>";
+                "<h4>DevSketch <a href='https://devsketch.io'>https://devsketch.io</a></h4>" +
+                "<p>Designed and developed DevSketch, a free online modelling tool which allows developers and architects to model their software solutions using specialised UML design tools and widgets.  " +
+                "Backend web services for the site were developed using ASP .NET Core with account creation and sign in functionality implemented using ASP .NET Core Identity." +
+                "This was coupled with a single page application for the front end, built with React and using Flux Utils to support flux architecture. - Source code available on request</p><p><br/></p>";
 
             /**
              * The slot the item is for

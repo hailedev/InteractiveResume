@@ -47,10 +47,10 @@ define(
             this.entities.push(new Obstruction(832, 542, 68, 258).init());
             this.entities.push(new Obstruction(750, 400, 84, 74).init());
             this.entities.push(new HealthOrb(311, 230, "Wrote C#, Javascript code to interface with RESTful services using OAuth protocol").init());
-            this.entities.push(new HealthOrb(282, 483, "Developed C# and Javascript bindings for Evernote and LinkedIn REST API's").init());
-            this.entities.push(new HealthOrb(482, 293, "Developed C#, Javascript bindings for SurveyMonkey and YouTube Data API's").init());
+            this.entities.push(new HealthOrb(282, 483, "Worked with React libraries including React Route, DraftJS and React DnD").init());
+            this.entities.push(new HealthOrb(482, 293, "Developed C# and Javascript bindings for Evernote and social media REST API's").init());
             this.entities.push(new HealthOrb(632, 453, "Member of Golden Key Honour society in recognition of academic excellence").init());
-            this.entities.push(new HealthOrb(532, 553, "Developed Facebook and Twitter REST API clients in C# and Javascript").init());
+            this.entities.push(new HealthOrb(532, 553, "Experience with build pipeline tools include Grunt, Browserify and Babelify").init());
 
             // setup the loot
             this.entities.push(new Chest(700, 250, new Helm(735, 240).init()).init());

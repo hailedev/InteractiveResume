@@ -42,12 +42,12 @@ define(
             this.entities.push(new Obstruction(535, 838, 202, 46).init());
 
             // setup the loot
-            this.entities.push(new HealthOrb(250, 309, "Experience with Microsoft VSTS, WebStorm and Git").init());
-            this.entities.push(new HealthOrb(572, 294, "Programming languages include C#, Javascript, HTML/CSS").init());
-            this.entities.push(new HealthOrb(314, 514, "Experience with Microsoft technologies .Net4, MVC, WPF, WinForms").init());
-            this.entities.push(new HealthOrb(414, 970, "Experience with web frameworks including Bootstrap and RequireJS").init());
-            this.entities.push(new HealthOrb(402, 750, "Worked with MVVM frameworks such as Caliburn. Micro").init());
-            this.entities.push(new HealthOrb(562, 480, "Worked with virtualization software such as VMWare, VirtualBox and VirtualPC").init());
+            this.entities.push(new HealthOrb(250, 309, "Experience with Microsoft VSTS and Git").init());
+            this.entities.push(new HealthOrb(572, 294, "Languages & frameworks include C#, JavaScript (ES5), .NET 2.5-4.5 & Core").init());
+            this.entities.push(new HealthOrb(314, 514, "Experience with desktop frameworks WPF, WinForms and Reactive UI").init());
+            this.entities.push(new HealthOrb(414, 970, "Experience with backend frameworks ASP .NET MVC & Core, Core Identity and EF Core").init());
+            this.entities.push(new HealthOrb(402, 750, "Worked with frontend frameworks React, Flux Utils and Material UI").init());
+            this.entities.push(new HealthOrb(562, 480, "Experience with content management systems Umbraco and Sitefinity").init());
 
             // order is specific to setup the opacity
             var frostMourne = new Sword(235, 885).init();
