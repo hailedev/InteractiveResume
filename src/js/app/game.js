@@ -231,6 +231,7 @@ define(
             if(args.success){
                 loadLevel.call(this, args.item.level);
                 if(args.item.level === Levels.Heavens){
+                    $("#instructions").css("opacity",0);
                     beginClosingSequence.call(this);
                 }
                 return;
