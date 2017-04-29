@@ -10,17 +10,28 @@ body {
 }
 
 .connect{
-    position:fixed;
-    top:200px;
-    left:150px;
+    margin: -50px 0 20px 0;
 }
+
+.connect .title {
+    font-size:14px;
+    font-weight:bold;
+    line-height:20px;
+    margin-left:-14px;
+    text-align: center;
+}
+
 .connect ul{
     list-style-type: none;
     padding:0;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
 }
 .connect ul li{
     margin: 8px 0;
     cursor: pointer;
+    display: inline-block;
 }
 .footer {
     background-color: #454545;
@@ -53,4 +64,17 @@ body {
     left: 940px;
     border:4px solid white!important;
     margin-left: 5px;
+}
+
+@media (min-width: 1200px) {
+    .connect {
+        margin:0;
+        display:block;
+        position:fixed;
+        top:200px;
+        left: 100px;
+    }
+    .connect ul li{
+        display: block;
+    }
 }
