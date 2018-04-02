@@ -46,11 +46,11 @@ define(
             this.entities.push(new Obstruction(691, 630, 142, 170).init());
             this.entities.push(new Obstruction(832, 542, 68, 258).init());
             this.entities.push(new Obstruction(750, 400, 84, 74).init());
-            this.entities.push(new HealthOrb(311, 230, "Wrote C#, Javascript code to interface with RESTful services using OAuth protocol").init());
-            this.entities.push(new HealthOrb(282, 483, "Worked with React libraries including React Route, DraftJS and React DnD").init());
-            this.entities.push(new HealthOrb(482, 293, "Developed C# and Javascript bindings for Evernote and social media REST API's").init());
+            this.entities.push(new HealthOrb(311, 230, "Experience with dependency injection libraries Autofac and StructureMap").init());
+            this.entities.push(new HealthOrb(282, 483, "Unit and integration testing experience using the Moq and NSpec").init());
+            this.entities.push(new HealthOrb(482, 293, "Experience with Caliburn.Micro framework to support MVVM design").init());
             this.entities.push(new HealthOrb(632, 453, "Member of Golden Key Honour society in recognition of academic excellence").init());
-            this.entities.push(new HealthOrb(532, 553, "Experience with build pipeline tools include Grunt, Browserify and Babelify").init());
+            this.entities.push(new HealthOrb(532, 553, "Implemented data access layer code against SQL Server databases").init());
 
             // setup the loot
             this.entities.push(new Chest(700, 250, new Helm(735, 240).init()).init());

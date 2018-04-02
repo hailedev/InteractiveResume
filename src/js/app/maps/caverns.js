@@ -42,13 +42,13 @@ define(
 
             // load the loot
             this.entities.push(new ShieldContainer(1135, 353, new Shield(1170, 323).init()).init());
-            this.entities.push(new HealthOrb(311, 343, "Experience with dependency injection libraries Autofac and StructureMap").init());
-            this.entities.push(new HealthOrb(532, 453, "Unit and integration testing experience using the Moq and NSpec").init());
-            this.entities.push(new HealthOrb(783, 142, "Experience with design frameworks and pre-processors including Bootstrap and Less").init());
-            this.entities.push(new HealthOrb(979, 343, "Experience with Caliburn.Micro framework to support MVVM methodologies").init());
-            this.entities.push(new HealthOrb(1102, 518, "Developed browser extensions in Javascript and C# for Chrome and IE").init());
-            this.entities.push(new HealthOrb(318, 151, "Experience with New Relic site monitoring tools").init());
-            this.entities.push(new HealthOrb(702, 318, "Experience building Windows Installer packages using Installshield and Orca").init());
+            this.entities.push(new HealthOrb(311, 343, "Implemented designs using LESS and Bootstrap").init());
+            this.entities.push(new HealthOrb(532, 453, "Developed C# and Javascript bindings for social media REST API's").init());
+            this.entities.push(new HealthOrb(783, 142, "Experience with build pipeline tools include Webpack, Docker and Browserify").init());
+            this.entities.push(new HealthOrb(979, 343, "Developed site components using Vue2 and Vuex state management library").init());
+            this.entities.push(new HealthOrb(1102, 518, "Worked with React libraries including React Route, DraftJS and React DnD").init());
+            this.entities.push(new HealthOrb(318, 151, "Developed payment processing services created with ASP.Net Core").init());
+            this.entities.push(new HealthOrb(702, 318, "Developed e-commerce SPA websites using Angular framework ").init());
             return Map.prototype.init.call(this, []);
         };
         //endregion

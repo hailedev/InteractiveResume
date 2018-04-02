@@ -40,7 +40,7 @@ define(
                 "<p>Microsoft Certified Application Developer .Net (MCAD)</p>" +
                 "<p>Certified Umbraco Developer Level 2</p>" +
                 "<p>Certified Umbraco Developer Level 1</p>" +
-                "<p>ISTQB Foundation</p>";
+                "<p>Unity Certified Developer</p>";
 
             /**
              * The slot the item is for
