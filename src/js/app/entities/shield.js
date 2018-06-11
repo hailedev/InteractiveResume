@@ -29,7 +29,7 @@ define(
 
             var _slot = "offHand";
             var _description = "<h3>Professional Experience Acquired</h3>" +
-                "<h4>World Vision Australia - Software Engineer (2016 - current)</h4>" +
+                "<h4>World Vision Australia - Senior Full Stack Software Engineer (2016 - current)</h4>" +
                 "<p>Role as a .NET/Full stack software engineer as part of a cross functional Agile team.  " + 
                 "Core responsibilities involved developing and designing features for websites built on the Angular JS framework, " + 
                 "developing backend web services to support payment processing and user management, integration with external service providers and integration with legacy systems.  " + 
