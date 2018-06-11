@@ -45,7 +45,7 @@ define(
             this.entities.push(new HealthOrb(250, 309, "Experience with Microsoft VSTS and Git").init());
             this.entities.push(new HealthOrb(572, 294, "Languages & frameworks include C#, ES5 & ES6, .NET 2.5-4.5 & Core").init());
             this.entities.push(new HealthOrb(314, 514, "Experience with desktop frameworks WPF and WinForms").init());
-            this.entities.push(new HealthOrb(414, 970, "Experience with backend frameworks ASP .NET MVC & Core, ASP .NET Web Forms").init());
+            this.entities.push(new HealthOrb(414, 970, "Experience with backend frameworks ASP.NET MVC Core, ASP.NET Web Forms").init());
             this.entities.push(new HealthOrb(402, 750, "Worked with frontend frameworks Angular, Vue and React").init());
             this.entities.push(new HealthOrb(562, 480, "Experience with content management systems Umbraco and Sitefinity").init());
 
