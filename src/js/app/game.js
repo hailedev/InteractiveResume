@@ -5,7 +5,7 @@ define(
     function($, createjs, ndgmr, Hero, Loader, Start, Heavens, Caverns, Whimsy, Cathedral, Illidan, Questions, module){
 
         var loadindMessages = ["Testing in production", "Cleaning Whitespace", "Pasting Code", "Copying Code", "Making Coffee", "Googling Angular Directives"];
-        if(application == "true"){
+        if(application){
             loadindMessages.push("Building Handlock Deck");
         }
         /**

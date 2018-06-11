@@ -9,7 +9,7 @@ define(
     'app/strings/questions',
     [],
     function(){
-        if(application == "true"){
+        if(application){
             return [
                 {
                     question: "<p style=\"font-weight:bold;\">Why do you want to work for Blizzard Entertainment, what excites you about the role?</p>",
